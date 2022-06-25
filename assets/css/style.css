@@ -15,7 +15,7 @@ body {
     color: #fff;
 }
 header {
-    padding: 45px;
+    padding: 45px 0 0 0;    
 }
 .heroArea {
     display: flex;
@@ -27,11 +27,42 @@ header {
     font-weight: bold;
     font-size: 42px;
     line-height: 50px;
+    margin: 0 0 30 0;
+    margin-top: 60px;
 }
-.heroArea .subtitle{
+.heroArea .subtitle {
     font-size: 16px;
     line: height 23px;
-    color: #999
+    color: #999;
+    margin-bottom: 20px;
+}
+.heroArea .leftside .form {
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1;
+    
+}
+.heroArea .leftside .form input {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    height: 40px;
+    outline: none;
+    color: #FFF;
+    font-size: 14px;
+}
+.leftside .form button {
+    height: 40px;
+    border: 0;
+    background-color: #0071b7;
+    color: #FFF;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.heroArea .leftside .techs {
+    margin-bottom: 60px;
+}
+.heroArea .leftside .techs img {
+    margin-right: 10px;
 }
 .heroArea .rightside {
     flex: 1;
