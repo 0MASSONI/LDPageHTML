@@ -57,7 +57,14 @@ header {
     font-size: 14px;
     padding: 0 20px;
     margin-left: 10px;
+    cursor: pointer;
 }
+
+.heroArea .leftside .form button:hover { 
+    opacity: .7;
+
+}
+
 .heroArea .leftside .techs {
     margin-bottom: 60px;
 }
